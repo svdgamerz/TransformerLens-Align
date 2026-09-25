@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+*.so
+
+# Caches and checkpoints
+.pytest_cache/
+.ipynb_checkpoints/
+outputs/*.pt
+*.pt
+*.bin
+*.safetensors
+
+# Rust build artifacts
+rust_core/target/
+target/
+Cargo.lock
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
